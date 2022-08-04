@@ -1,0 +1,14 @@
+<!-- app.component.html -->
+
+<nb-layout>
+    <nb-layout-header fixed>
+      <app-header class="header"></app-header>
+    </nb-layout-header>
+    <nb-layout-footer></nb-layout-footer>
+    <nb-layout-column style="display: flex; justify-content: center;">
+      <app-layout style="max-width: 50%;"></app-layout>
+    </nb-layout-column>
+    <nb-sidebar>
+        <nb-menu [items]="items"></nb-menu>
+    </nb-sidebar>
+</nb-layout>
